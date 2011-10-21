@@ -74,7 +74,7 @@ generate "cancan:ability"
 generate "active_admin:resource User"
 
 generate "controller home index"
-route "root :to => home#index"
+route 'root :to => "home#index"'
 
 # clean up rails defaults
 remove_file 'public/index.html'
