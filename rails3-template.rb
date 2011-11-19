@@ -22,6 +22,7 @@ gem "cancan"
 gem "rails3-generators", :group => [ :development ]
 gem "rspec-rails", :group => [ :development, :test ]
 gem "factory_girl_rails", :group => [ :development, :test ]
+gem  "rcov", :group => [ :development, :test ]
 gem "webrat", :group => :test
 gem "ffaker", :group => :test
 gem "autotest", :group => :test
